@@ -12,8 +12,10 @@ def process ():
             # ask user for a line
             input_user = input("Enter line: ")
             output_file.write(input_user + "\n")
-            
+
             # ask the user if there are more lines to add
+            input_user1 = input ("Are there more lines y/n? ")
+            
             # if the user is done with their lines, break the loop
 # end of method
 process ()
