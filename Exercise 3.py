@@ -19,5 +19,6 @@ def process ():
             # if the user is done with their lines, break the loop
             if input_user1.lower() == "n":
                 break
-
+            
 # end of method
+process ()
